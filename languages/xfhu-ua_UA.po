@@ -1,0 +1,1727 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.01\n"
+"POT-Creation-Date: 2021-12-14 16:48+0300\n"
+"PO-Revision-Date: 2021-12-14 16:49+0300\n"
+"Last-Translator: \n"
+"Language-Team: Team Like-Sport.com.ua <admin@like-sport.com.ua>\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c\n"
+"X-Poedit-SearchPath-0: debug.php\n"
+"X-Poedit-SearchPath-1: export.php\n"
+"X-Poedit-SearchPath-2: extensions.php\n"
+"X-Poedit-SearchPath-3: functions.php\n"
+"X-Poedit-SearchPath-4: offer.php\n"
+"X-Poedit-SearchPath-5: packages.php\n"
+"X-Poedit-SearchPath-6: sandbox.php\n"
+"X-Poedit-SearchPath-7: xml-for-hotline.php\n"
+"X-Poedit-SearchPath-8: includes/class_wp_list_table.php\n"
+
+#: debug.php:33 xml-for-hotline.php:305
+msgid "Debug page"
+msgstr "Сторінка налагодження"
+
+#: debug.php:39
+msgid "Logs"
+msgstr "Логи"
+
+#: debug.php:42
+msgid "Log-file here"
+msgstr "Логи тут"
+
+#: debug.php:46
+msgid "Keep logs"
+msgstr "Ведіть логи"
+
+#: debug.php:47
+msgid "Clear logs"
+msgstr "Очистити логи"
+
+#: debug.php:51
+msgid "Do not check this box if you are not a developer"
+msgstr "Зніміть цей прапорець, якщо ви не є розробником"
+
+#: debug.php:55
+msgid "Disable notices"
+msgstr "Відключити повідомлення"
+
+#: debug.php:58
+msgid "Disable notices about XML-construct"
+msgstr "Відключити повідомлення про XML-збірці"
+
+#: debug.php:62
+msgid "Enable"
+msgstr "Включити"
+
+#: debug.php:65
+msgid "Enable the five minute interval for CRON"
+msgstr "Увімкніть п'ятихвилинний інтервал для CRON"
+
+#: debug.php:74 export.php:708
+msgid "Save"
+msgstr "Зберегти"
+
+#: debug.php:75 export.php:709
+msgid "Click to save the settings"
+msgstr "Натисніть, щоб зберегти налаштування"
+
+#: debug.php:85 debug.php:88
+msgid "Reset plugin settings"
+msgstr "Скидання налаштувань плагіна"
+
+#: debug.php:86
+msgid "Reset plugin settings can be useful in the event of a problem"
+msgstr ""
+"Скидання налаштувань плагіна може бути корисний у разі виникнення проблем"
+
+#: debug.php:93
+msgid "Request simulation"
+msgstr "Моделювання запиту"
+
+#: debug.php:130 export.php:182 export.php:237
+msgid "Feed"
+msgstr "Фід"
+
+#: debug.php:139
+msgid "Simulated"
+msgstr "Симуляція"
+
+#: debug.php:147
+msgid "Possible problems"
+msgstr "Можливі проблеми"
+
+#: debug.php:153
+msgid ""
+"Your site has no global attributes! This may affect the quality of the YML "
+"feed. This can also cause difficulties when setting up the plugin"
+msgstr ""
+"У вашого сайту немає глобальних атрибутів! Це може вплинути на якість YML-"
+"фіда. Це також може викликати труднощі при налаштування плагіна"
+
+#: debug.php:153
+msgid "Please read the recommendations"
+msgstr "Будь ласка, ознайомтеся з рекомендаціями"
+
+#: debug.php:167
+msgid "Most likely, these plugins negatively affect the operation of"
+msgstr "Швидше за все, ці плагіни негативно впливають на роботу"
+
+#: debug.php:167
+msgid ""
+"If you are a developer of one of the plugins from the list above, please "
+"contact me"
+msgstr ""
+"Якщо ви є розробником одного з плагінів з наведеного вище списку, будь "
+"ласка, зв'яжіться зі мною"
+
+#: debug.php:172
+msgid "Self-diagnosis functions did not reveal potential problems"
+msgstr "Функції самодіагностики не виявила потенційних проблем"
+
+#: debug.php:184
+msgid "Sandbox"
+msgstr "Пісочниця"
+
+#: debug.php:200 export.php:209
+msgid "Send data about the work of the plugin"
+msgstr "Надсилайте дані про роботу плагіна"
+
+#: debug.php:201 export.php:211
+msgid "Sending statistics you help make the plugin even better"
+msgstr "Відправляючи статистику, ви допомагаєте зробити плагін ще краще"
+
+#: debug.php:201 export.php:211
+msgid "The following data will be transferred"
+msgstr "Будуть передані наступні дані"
+
+#: debug.php:203
+msgid "Site URL"
+msgstr "URL-сайту"
+
+#: debug.php:204 export.php:214
+msgid "File generation status"
+msgstr "Статус створення фіда"
+
+#: debug.php:205 export.php:213
+msgid "URL XML-feed"
+msgstr "URL XML-фід"
+
+#: debug.php:206 export.php:215
+msgid "Is the multisite mode enabled"
+msgstr "Включений режим multisite"
+
+#: debug.php:208 export.php:217
+msgid "The plugin helped you download the products to the Hotline"
+msgstr "Плагін допоміг Вам завантажити товари на Hotline"
+
+#: debug.php:211 export.php:220 export.php:416 export.php:462
+msgid "Yes"
+msgstr "Так"
+
+#: debug.php:212 export.php:221 export.php:415 export.php:463
+msgid "No"
+msgstr "Ні"
+
+#: debug.php:214 export.php:223
+msgid ""
+"If you don't mind to be contacted in case of problems, please enter your "
+"email address"
+msgstr ""
+"Якщо ви не заперечуєте, щоб з вами зв'язувалися у разі виникнення проблем, "
+"введіть свою адресу електронної пошти"
+
+#: debug.php:214 export.php:223
+msgid "And if you want a response, be sure to include your email address"
+msgstr ""
+"І якщо ви хочете отримати відповідь, обов'язково вкажіть свою адресу "
+"електронної пошти"
+
+#: debug.php:216 export.php:225
+msgid "Your message"
+msgstr "Ваше повідомлення"
+
+#: debug.php:217 export.php:226
+msgid ""
+"Enter your text to send me a message (You can write me in Russian or "
+"English). I check my email several times a day"
+msgstr ""
+"Введіть текст, щоб відправити мені повідомлення (Ви можете написати мені "
+"російською або англійською мовою). Я перевіряю свою електронну пошту кілька "
+"разів на день"
+
+#: debug.php:218 export.php:227
+msgid "Send data"
+msgstr "Надіслати дані"
+
+#: export.php:162 xml-for-hotline.php:299
+msgid "Export Hotline"
+msgstr "Експорт на Hotline"
+
+#: export.php:164
+msgid "a necessary extension for those who want to"
+msgstr "необхідне розширення для тих, хто хоче"
+
+#: export.php:164
+msgid "save on advertising budget"
+msgstr "економити рекламний бюджет"
+
+#: export.php:164
+msgid "on Hotline"
+msgstr "на Hotline"
+
+#: export.php:164 export.php:168
+msgid "Learn More"
+msgstr "Детальніше"
+
+# Без
+#: export.php:168
+msgid "Attention"
+msgstr "Увага"
+
+# Без
+#: export.php:168
+msgid "For the current feed in the field"
+msgstr "Для цього фіда в поле"
+
+#: export.php:168 export.php:469 xml-for-hotline.php:362
+msgid "Vendor"
+msgstr "Виробник"
+
+# Без
+#: export.php:168
+msgid "is set to"
+msgstr "вибрано значення"
+
+#: export.php:168 export.php:277 export.php:472 export.php:490 export.php:505
+#: export.php:528 export.php:541 xml-for-hotline.php:590
+msgid "Disabled"
+msgstr "Відключено"
+
+# без
+#: export.php:168
+msgid ""
+"Change this value, otherwise the products will not be included in the XML "
+"feed"
+msgstr "Змініть це значення, інакше товари не потраплять в XML фід"
+
+#: export.php:176
+msgid "Instruction"
+msgstr "Інструкція"
+
+#: export.php:176
+msgid "How to create a XML-feed"
+msgstr "Як створити XML фід"
+
+#: export.php:186
+msgid "Select feed"
+msgstr "Вибрати фід"
+
+#: export.php:192
+msgid "Please support the project"
+msgstr "Будь ласка, підтримайте проект"
+
+#: export.php:194
+msgid "Thank you for using the plugin"
+msgstr "Дякуємо вам за використання плагіна"
+
+#: export.php:195
+msgid "Please help make the plugin better"
+msgstr "Будь ласка, допоможіть зробити плагін краще"
+
+#: export.php:195
+msgid "answering 6 questions"
+msgstr "відповівши на 6 питань"
+
+#: export.php:196
+msgid "If this plugin useful to you, please support the project one way"
+msgstr "Якщо цей плагін вам корисний, будь ласка, підтримайте проект"
+
+#: export.php:198
+msgid "Leave a comment on the plugin page"
+msgstr "Залиште коментар на сторінці плагіна"
+
+#: export.php:199
+msgid "Support the project financially"
+msgstr "Підтримайте проект фінансово"
+
+#: export.php:199
+msgid "Donate now"
+msgstr "Пожертвуйте зараз"
+
+#: export.php:200
+msgid "Noticed a bug or have an idea how to improve the quality of the plugin"
+msgstr "Помітили помилку чи маєте уявлення про те, як поліпшити якість плагіна"
+
+#: export.php:200
+msgid "Let me know"
+msgstr "Напишіть мені"
+
+#: export.php:202
+msgid "The author of the plugin Maxim Glazunov"
+msgstr "З повагою, Максим Глазунов"
+
+#: export.php:203
+msgid "Accept orders for individual revision of the plugin"
+msgstr "Приймаємо замовлення на індивідуальну доопрацювання плагіна"
+
+#: export.php:203
+msgid "Leave a request"
+msgstr "Залиште заявку"
+
+#: export.php:237
+msgid "not created yet"
+msgstr "ще не створено"
+
+#: export.php:237
+msgid "updating"
+msgstr "оновлення"
+
+#: export.php:237
+msgid "created"
+msgstr "створений"
+
+#: export.php:241 export.php:248
+msgid "We are working on automatic file creation. XML will be developed soon"
+msgstr "Йде автоматичне створення файлу. XML-фід буде створенним незабаром"
+
+#: export.php:243
+msgid ""
+"In order to do that, select another menu entry (which differs from \"off\") "
+"in the box called \"Automatic file creation\". You can also change values in "
+"other boxes if necessary, then press \"Save\""
+msgstr ""
+"Для цього в поле \"Автоматичне створення файлу\" виставите значення, "
+"відмінне від значення \"відключено\", при необхідності змініть значення "
+"інших полів і натисніть \"Зберегти\""
+
+#: export.php:244
+msgid ""
+"After 1-7 minutes (depending on the number of products), the feed will be "
+"generated and a link will appear instead of this message"
+msgstr ""
+"Через 1-7 хвилин (в залежності від кількості продуктів) буде згенерован фід, "
+"і замість цього повідомлення з'явиться посилання"
+
+#: export.php:250
+msgid "Your XML feed here"
+msgstr "Ваш XML фід тут"
+
+#: export.php:251
+msgid "File size"
+msgstr "Розмір файлу"
+
+#: export.php:260
+msgid "Generated"
+msgstr "Згенерований"
+
+#: export.php:263
+msgid ""
+"Please note that Hotline checks XML no more than 3 times a day! This means "
+"that the changes on the Hotline are not instantaneous"
+msgstr ""
+"Будь ласка, зверніть увагу, що Hotline перевіряє XML не більше 3 разів на "
+"день! Це означає, що зміни на Hotline не є миттєвими"
+
+#: export.php:270
+msgid "Main parameters"
+msgstr "Основні параметри"
+
+#: export.php:274 includes/class_wp_list_table.php:34
+msgid "Automatic file creation"
+msgstr "Автоматичне створення файлів"
+
+#: export.php:279 includes/class_wp_list_table.php:72
+msgid "Every five minutes"
+msgstr "Кожні п'ять хвилин"
+
+#: export.php:281 includes/class_wp_list_table.php:73
+msgid "Hourly"
+msgstr "Раз на годину"
+
+#: export.php:282 includes/class_wp_list_table.php:74
+msgid "Every six hours"
+msgstr "Кожні 6 годин"
+
+#: export.php:283 includes/class_wp_list_table.php:75
+msgid "Twice a day"
+msgstr "2 рази в день"
+
+#: export.php:284 includes/class_wp_list_table.php:76
+msgid "Daily"
+msgstr "Раз на день"
+
+#: export.php:286
+msgid "The refresh interval on your feed"
+msgstr "Інтервал оновлення фіда"
+
+#: export.php:290
+msgid "Update feed when updating products"
+msgstr "Оновити фід при оновленні картки товару"
+
+#: export.php:297 includes/class_wp_list_table.php:66
+msgid "Feed assignment"
+msgstr "Призначення фіда"
+
+#: export.php:299
+msgid "For Hotline"
+msgstr "Для Hotline"
+
+#: export.php:300
+msgid "Not used in feed. Inner note for your convenience"
+msgstr "Не використовується в фіді. Внутрішня замітка для вашої зручності"
+
+#: export.php:304 export.php:311
+msgid "Whot export"
+msgstr "Що експортувати"
+
+#: export.php:307
+msgid "Simple & Variable products"
+msgstr "Варіативні і звичайні товари"
+
+#: export.php:308
+msgid "Only simple products"
+msgstr "Тільки прості товари"
+
+#: export.php:315
+msgid "Description of the product"
+msgstr "Опис товара"
+
+#: export.php:318
+msgid "Only Excerpt description"
+msgstr "Тільки Короткий опис"
+
+#: export.php:319
+msgid "Only Full description"
+msgstr "Тільки Повний опис"
+
+#: export.php:320
+msgid "Excerpt or Full description"
+msgstr "Короткий або Повний опис"
+
+#: export.php:321
+msgid "Full or Excerpt description"
+msgstr "Повне чи Короткий опис"
+
+#: export.php:322
+msgid "Excerpt plus Full description"
+msgstr "Короткий плюс Повний опис"
+
+#: export.php:323
+msgid "Full plus Excerpt description"
+msgstr "Повний плюс Короткий опис"
+
+#: export.php:327
+msgid "The source of the description"
+msgstr "Джерело опису товара"
+
+# без
+#: export.php:332
+msgid "The varition description takes precedence over others"
+msgstr "Опис варіації має пріоритет над іншими"
+
+#: export.php:338
+msgid "Shop name"
+msgstr "Назва магазину"
+
+#: export.php:341 export.php:348 export.php:355 export.php:483
+msgid "Required element"
+msgstr "Необхідний елемент"
+
+#: export.php:341
+msgid "The short name of the store should not exceed 20 characters"
+msgstr "Коротка назва магазину не повинно перевищувати 20 символів"
+
+#: export.php:348
+msgid ""
+"The unique ID (code) of the store is indicated in your account on the site "
+"hotline.ua and in the texts of mail notifications"
+msgstr ""
+"Унікальний ID (код) магазину, зазначений у Вашому акаунті і в текстах "
+"поштових повідомлень"
+
+#: export.php:352
+msgid "Dollar rate"
+msgstr "Курс долара"
+
+#: export.php:355
+msgid "if you sell goods for dollars"
+msgstr "якщо ви продаєте товари за долари"
+
+# без
+#: export.php:362 export.php:621 export.php:628 export.php:650 export.php:657
+msgid "Optional attribute"
+msgstr "Необов'язковий атрибут"
+
+# без
+#: export.php:362
+msgid "of tag"
+msgstr "тега"
+
+# без
+#: export.php:362
+msgid ""
+"The number of days from the order of the proucts by the buyer to the start "
+"of the delivery process"
+msgstr ""
+"Кількість днів від замовлення товару покупцем до початку процесу доставки"
+
+#: export.php:362 export.php:571 export.php:756 export.php:757 export.php:758
+#: export.php:759 export.php:760 export.php:761 export.php:762 export.php:763
+msgid "Read more"
+msgstr "Детальніше"
+
+#: export.php:366
+msgid "What kind of products do you sell?"
+msgstr "Які товари ви продаєте?"
+
+#: export.php:369
+msgid "Electronics"
+msgstr "Електроніка"
+
+#: export.php:370
+msgid "Computer techologies"
+msgstr "Комп'ютери"
+
+#: export.php:371
+msgid "Clothes and shoes"
+msgstr "Одяг та взуття"
+
+#: export.php:372
+msgid "Auto parts"
+msgstr "Автозапчастини"
+
+#: export.php:373
+msgid "Products for children"
+msgstr "Товари для дітей"
+
+#: export.php:374
+msgid "Sporting goods"
+msgstr "Спортивні товари"
+
+#: export.php:375
+msgid "Goods for pets"
+msgstr "Товари для домашніх тварин"
+
+#: export.php:376
+msgid "Sex shop (Adult products)"
+msgstr "Секс-шоп (Товари для дорослих)"
+
+#: export.php:377
+msgid "Books"
+msgstr "Книги"
+
+#: export.php:378
+msgid "Health products"
+msgstr "Товари для здоров'я"
+
+#: export.php:379
+msgid "Food"
+msgstr "Їжа"
+
+#: export.php:380
+msgid "Construction Materials"
+msgstr "Будівельні матеріали"
+
+#: export.php:381
+msgid "Other"
+msgstr "Інше"
+
+#: export.php:383
+msgid "Specify the main category"
+msgstr "Вкажіть основну категорію"
+
+#: export.php:387 includes/class_wp_list_table.php:35
+msgid "Step of export"
+msgstr "Крок експорту"
+
+#: export.php:399
+msgid "The value affects the speed of file creation"
+msgstr "Значення впливає на швидкість створення YML фіда"
+
+#: export.php:399
+msgid ""
+"If you have any problems with the generation of the file - try to reduce the "
+"value in this field"
+msgstr ""
+"Якщо у вас виникли проблеми з генерацією файлу - спробуйте зменшити значення "
+"в даному полі"
+
+#: export.php:399
+msgid "More than 500 can only be installed on powerful servers"
+msgstr "Більше 500 можна встановлювати тільки на потужних серверах"
+
+#: export.php:403
+msgid "Categories of variable products for which group_id is allowed"
+msgstr "Категорії варіативних товарів для яких дозволений group_id"
+
+#: export.php:408
+msgid "Categories of products for which <group_id> is allowed"
+msgstr "Категорії варіативних товарів для яких group_id дозволений"
+
+#: export.php:412
+msgid "Clear URL from GET-paramrs"
+msgstr "Очистити URL від GET-параметрів"
+
+# без
+#: export.php:422
+msgid "In attributes"
+msgstr "В атрибутах"
+
+# без
+#: export.php:422
+msgid "ampersand"
+msgstr "амперсанд"
+
+# без
+#: export.php:425 export.php:430
+msgid "Default"
+msgstr "За замовчуванням"
+
+# без
+#: export.php:426 export.php:430 includes/class_wp_list_table.php:170
+msgid "Delete"
+msgstr "Видалити"
+
+# без
+#: export.php:427 export.php:428
+msgid "Replace with"
+msgstr "Замінити на"
+
+#: export.php:434
+msgid "Remove default.png from XML"
+msgstr "Видалити default.png з XML"
+
+#: export.php:440
+msgid "Skip products without pictures"
+msgstr "Пропустити товари без картинок"
+
+# без
+#: export.php:447
+msgid "Skip missing products"
+msgstr "Виключати товари яких немає в наявності"
+
+#: export.php:447
+msgid "except for products for which a pre-order is permitted"
+msgstr "за винятком товарів, яким надано дозвіл на попереднє замовлення"
+
+# без
+#: export.php:453
+msgid "Skip backorders products"
+msgstr "Виключати з фіда товари для попереднього замовлення"
+
+#: export.php:459
+msgid "Old price"
+msgstr "Стара ціна"
+
+#: export.php:465 export.php:498 export.php:521 export.php:533 export.php:545
+#: export.php:558
+msgid "Optional element"
+msgstr "Необов'язковий елемент"
+
+#: export.php:474 export.php:477
+msgid "Substitute from"
+msgstr "Підставляти з"
+
+#: export.php:487
+msgid "Model code"
+msgstr "Код моделі"
+
+#: export.php:491 export.php:529
+msgid "Substitute from SKU"
+msgstr "Підставляти з Артикул"
+
+#: export.php:492 export.php:496 export.php:515 export.php:519
+msgid "Substitute from post meta"
+msgstr "Підставляти з мета-повідомлення"
+
+#: export.php:496 export.php:519
+msgid "If selected"
+msgstr "При виборі"
+
+#: export.php:496 export.php:519
+msgid "do not forget to fill out this field"
+msgstr "не забудьте заповнити це поле"
+
+#: export.php:497 export.php:520
+msgid "Name post_meta"
+msgstr "Ім'я метаполя"
+
+#: export.php:498
+msgid "model code (vendor code from the manufacturer)"
+msgstr "код моделі (код постачальника від виробника)"
+
+#: export.php:502
+msgid "Guarantee"
+msgstr "Гарантія"
+
+#: export.php:506
+msgid "Enabled"
+msgstr "Включено"
+
+#: export.php:508
+msgid "Guarantee type"
+msgstr "Тип гарантії"
+
+#: export.php:510
+msgid "Manufacturer"
+msgstr "Виробник"
+
+#: export.php:511
+msgid "Shop"
+msgstr "Магазин"
+
+#: export.php:513
+msgid "Guarantee value"
+msgstr "Значення гарантії"
+
+#: export.php:525
+msgid "Barcode"
+msgstr "Штрих-код"
+
+#: export.php:537
+msgid "Country of manufacture"
+msgstr "Країна виробник"
+
+#: export.php:550
+msgid "Include these attributes in the values Param"
+msgstr "Включити ці атрибути в фід"
+
+#: export.php:559
+msgid "Hint"
+msgstr "Підказка"
+
+#: export.php:559
+msgid ""
+"To select multiple values, hold down the (ctrl) button on Windows or (cmd) "
+"on a Mac. To deselect, press and hold (ctrl) or (cmd), click on the marked "
+"items"
+msgstr ""
+"Щоб вибрати кілька значень, утримуючи кнопку (ctrl) в GNU/Linux, Windows або "
+"(cmd) на Mac. Щоб скасувати вибір, натисніть і утримуйте (ctrl) або (cmd), "
+"натисніть на зазначені елементи"
+
+# без
+#: export.php:568
+msgid "Delivery"
+msgstr "Доставка"
+
+# Без
+#: export.php:570
+msgid "Add delivery information to feed"
+msgstr "Додати інформацію про доставку в фід"
+
+# без
+#: export.php:571
+msgid "Note"
+msgstr "Примітка"
+
+#: export.php:571
+msgid ""
+"Before adding shipping information to your feed, you must disable the same "
+"option in your Hotline account"
+msgstr ""
+"Перед додаванням інформації про доставку в фид вам необхідно відключити цю "
+"опцію в особистому кабінеті на Hotline"
+
+# без
+#: export.php:574
+msgid "Number of delivery types"
+msgstr "Кількість варіантів доставки"
+
+# без
+#: export.php:607
+msgid "Delivery type"
+msgstr "Тип доставки"
+
+# без
+#: export.php:610
+msgid "Pickup"
+msgstr "Cамовивіз"
+
+#: export.php:611
+msgid "From warehouse"
+msgstr "З складу"
+
+# без
+#: export.php:612
+msgid "Express delivery"
+msgstr "Експрес доставка"
+
+# без
+#: export.php:614 export.php:640 export.php:694
+msgid "Required attribute"
+msgstr "Обов'язковий атрибут"
+
+# без
+#: export.php:614 export.php:621 export.php:628 export.php:640 export.php:650
+#: export.php:657 export.php:694
+msgid "of element"
+msgstr "елемента"
+
+# без
+#: export.php:618
+msgid "Delivery cost"
+msgstr "Вартість доставки"
+
+# без
+#: export.php:625
+msgid "Free delivery from"
+msgstr "Безкоштовна доставка від"
+
+# без
+#: export.php:632
+msgid "Delivery time"
+msgstr "Термін доставки"
+
+#: export.php:635
+msgctxt "1-3"
+msgid "days"
+msgstr "дня"
+
+#: export.php:636
+msgctxt "4-9"
+msgid "days"
+msgstr "днів"
+
+#: export.php:637
+msgctxt "10-14"
+msgid "days"
+msgstr "днів"
+
+#: export.php:638
+msgid "Hours"
+msgstr "Годин"
+
+#: export.php:644
+msgid "Delivery cost is included in the order amount"
+msgstr "Вартість доставки включена в суму замовлення"
+
+#: export.php:647
+msgid "true"
+msgstr "так"
+
+#: export.php:648
+msgid "false"
+msgstr "ні"
+
+# без
+#: export.php:654
+msgid "Region"
+msgstr "Регіон"
+
+#: export.php:661
+msgid "Delivery carrier"
+msgstr "Служба доставки"
+
+#: export.php:664
+msgid "On our own"
+msgstr "Самовивіз"
+
+#: export.php:754
+msgid "My plugins that may interest you"
+msgstr "Мої плагіни, які можуть вас зацікавити"
+
+#: export.php:756
+msgid "Сreates a XML-feed to upload to Google Merchant Center"
+msgstr "Створює XML-фід для завантаження в Google Merchant Center"
+
+#: export.php:757
+msgid "Сreates a YML-feed for importing your products to Yandex Market"
+msgstr "Створює YML-фід для імпорту товарів на Яндекс Маркет"
+
+#: export.php:758
+msgid "Imports products from YML to your shop"
+msgstr "Імпортує товари з YML в ваш магазин"
+
+#: export.php:759
+msgid "Сreates a XML-feed for importing your products to Hotline"
+msgstr "Створює XML-фід для імпорту ваших товарів на Hotline"
+
+#: export.php:760
+msgid ""
+"This plugin will add a marketing tool that will allow you to give gifts to "
+"the buyer upon purchase"
+msgstr ""
+"Цей плагін додасть маркетинговий інструмент, який дозволить вам дарувати "
+"подарунки покупцеві при купівлі"
+
+#: export.php:761
+msgid "With this plugin, you can import products to your group on ok.ru"
+msgstr ""
+"За допомогою цього плагіна ви можете імпортувати продукти в свою групу на ok."
+"ru"
+
+#: export.php:762 export.php:763
+msgid "Сreates a XML-feed for importing your products to"
+msgstr "Створює XML-фід для імпорту ваших товарів на"
+
+#: extensions.php:5
+msgid "Extensions for XML for Hotline"
+msgstr "Розширення для XML Hotline"
+
+#: extensions.php:16
+msgid "The ability to exclude products from certain categories"
+msgstr "Можливість вилучення товарів з певних категорій"
+
+#: extensions.php:17
+msgid "Ability to exclude products by certain tags"
+msgstr "Можливість виключення товарів з певним тегами"
+
+#: extensions.php:18
+msgid "The ability to exclude products at a price"
+msgstr "Можливість виключити товари за ціною"
+
+#: extensions.php:19
+msgid "Ability to assign labels as categories"
+msgstr "Можливість привласнювати мітки в якості категорій"
+
+#: extensions.php:20
+msgid "Ability to download multiple images for products instead of one"
+msgstr ""
+"Можливість завантаження декількох зображень для продуктів замість одного"
+
+#: extensions.php:21
+msgid "Ability to remove the Visual Composer shortcodes from the description"
+msgstr "Можливість видалити шорткоди Visual Composer з опису"
+
+#: extensions.php:22
+msgid ""
+"The ability to add one attribute to the beginning of the product name, add "
+"three attributes to the end of the product name"
+msgstr ""
+"Можливість додати один атрибут в початок назви продукту, додати три атрибута "
+"в кінець назви продукту"
+
+#: extensions.php:23
+msgid "Support UTM tags"
+msgstr "Підтримка UTM міток"
+
+#: extensions.php:24 extensions.php:25
+msgid "any text you specify, for example"
+msgstr "будь-який текст, який ви вкажете, наприклад"
+
+#: extensions.php:26
+msgid "Category ID or Product ID"
+msgstr "ID категорії або ID товару"
+
+#: extensions.php:28
+msgid "product ID"
+msgstr "ID товару"
+
+#: extensions.php:29
+msgid "Dimension Grid Support. For example"
+msgstr "Підтримка розмірної сітки. Наприклад"
+
+#: extensions.php:33
+msgid "Even more stable work"
+msgstr "Ще більш стабільна робота"
+
+#: extensions.php:35
+msgid "Get XML for Hotline Pro Now"
+msgstr "Отримати XML для Hotline Pro зараз"
+
+#: functions.php:171 functions.php:186 xml-for-hotline.php:645
+msgid "products"
+msgstr "товарів"
+
+#: includes/class_wp_list_table.php:32
+msgid "Feed ID"
+msgstr "Фід ID"
+
+#: includes/class_wp_list_table.php:33
+msgid "XML File"
+msgstr "XML файл"
+
+#: includes/class_wp_list_table.php:60
+msgid "Not created yet"
+msgstr "Ще не створено"
+
+#: includes/class_wp_list_table.php:71
+msgid "Off"
+msgstr "Отключено"
+
+#: includes/class_wp_list_table.php:77
+msgid "Don't start"
+msgstr "Не починайте"
+
+#: includes/class_wp_list_table.php:185
+msgid "No XML feed found"
+msgstr "Ваш XML фід тут"
+
+#: xml-for-hotline.php:305
+msgid "Debug"
+msgstr "Відладка"
+
+#: xml-for-hotline.php:307
+msgid "Add Extensions"
+msgstr "Додати розширення"
+
+#: xml-for-hotline.php:307
+msgid "Extensions"
+msgstr "Розширення"
+
+#: xml-for-hotline.php:354
+msgid "Settings"
+msgstr "Налаштування"
+
+#: xml-for-hotline.php:362
+msgid "Change value"
+msgstr "Змініть значення"
+
+#: xml-for-hotline.php:363
+msgid "To create a XML-feed must not be \"Disabled\""
+msgstr "Для створення XML-фіда не повинно бути «Відключено»"
+
+#: xml-for-hotline.php:363
+msgid "Make sure your products have a"
+msgstr "Переконайтеся, що ваші товари мають"
+
+#: xml-for-hotline.php:363
+msgid "global attribute"
+msgstr "глобальний атрибут"
+
+#: xml-for-hotline.php:363
+msgid "that stores the value vendor"
+msgstr "в якому зберігається значення виробника"
+
+#: xml-for-hotline.php:363
+msgid "Otherwise, the XML-feed will be empty"
+msgstr "В іншому випадку XML-фід буде порожній"
+
+#: xml-for-hotline.php:556
+msgid "Hotline"
+msgstr "Hotline"
+
+#: xml-for-hotline.php:583
+msgid "Individual product settings for XML-feed hotline.ua"
+msgstr "Індивідуальні налаштування товару для XML-фіда hotline.ua"
+
+#: xml-for-hotline.php:588
+msgid "Product condition"
+msgstr "Стан товару"
+
+#: xml-for-hotline.php:591
+msgid "New"
+msgstr "Новий"
+
+#: xml-for-hotline.php:592
+msgid "Refurbished"
+msgstr "Заводське відновлення"
+
+#: xml-for-hotline.php:593
+msgid "Reject"
+msgstr "Уцінений"
+
+#: xml-for-hotline.php:594
+msgid "Used"
+msgstr "Вживаний"
+
+#: xml-for-hotline.php:601
+msgid "Custom"
+msgstr "Custom"
+
+#: xml-for-hotline.php:603
+msgid "Only numbers are entered"
+msgstr "Вводяться тільки цифри"
+
+#: xml-for-hotline.php:645
+msgid "Progress"
+msgstr "Прогрес"
+
+#: xml-for-hotline.php:645
+msgid "from"
+msgstr "з"
+
+#: xml-for-hotline.php:645
+msgid ""
+"If the progress indicators have not changed within 20 minutes, try reducing "
+"the \"Step of export\" in the plugin settings"
+msgstr ""
+"Якщо індикатори прогресу не змінилися протягом 20 хвилин, спробуйте зменшити "
+"\"Крок експорту\" в налаштуваннях плагіна"
+
+#: xml-for-hotline.php:647
+msgid "Prior to the completion of less than 70 seconds"
+msgstr "До завершення менш ніж 70 секунд"
+
+#: xml-for-hotline.php:649
+msgid "We are working on automatic file creation. xml will be developed soon"
+msgstr "Йде автоматичне створення файлу. XML-фід незабаром буде створено"
+
+#: xml-for-hotline.php:657
+msgid "WooCommerce is not active"
+msgstr "Для роботи потрібно плагін WooCommerce"
+
+#: xml-for-hotline.php:664
+msgid "Creating the feed is running. You can continue working with the website"
+msgstr "Створення YML-фіда запущено. Ви можете продовжити роботу з сайтом"
+
+#: xml-for-hotline.php:666 xml-for-hotline.php:670
+msgid "Updated"
+msgstr "Оновлене"
+
+#: xml-for-hotline.php:679
+msgid "Logs were cleared"
+msgstr "Логі були очищені"
+
+#: xml-for-hotline.php:681
+msgid "Error accessing log file. The log file may have been deleted previously"
+msgstr "Помилка доступу до log-файлу. Можливо log-файл був видалений раніше"
+
+#: xml-for-hotline.php:690
+msgid "The settings have been reset"
+msgstr "Налаштування були скинуті"
+
+#: xml-for-hotline.php:761
+msgid "The data has been sent. Thank you"
+msgstr "Дані були відправлені. Дякуємо"
+
+#~ msgid ""
+#~ "Make sure your products have a global attribute that stores the value "
+#~ "vendor"
+#~ msgstr ""
+#~ "Убедитесь, что ваши товары имеют глобальный атрибут, в котором хранится "
+#~ "значение производителя"
+
+#, fuzzy
+#~| msgid "Days"
+#~ msgctxt "xfhu"
+#~ msgid "Days"
+#~ msgstr "Дней"
+
+#~ msgid "and"
+#~ msgstr "и"
+
+#~ msgid "This option may be useful when setting up Turbo pages"
+#~ msgstr "Эта опция может быть полезна при настройке Турбо-страниц"
+
+#~ msgid ""
+#~ "For the plugin to function correctly, you need a version of WooCommerce "
+#~ "3.0 and higher! You have version "
+#~ msgstr ""
+#~ "Для правильной работы плагина необходима версия WooCommerce 3.0 и выше! У "
+#~ "Вас установлена версия "
+
+#~ msgid " installed. Please, update WooCommerce"
+#~ msgstr " Пожалуйста, обновите WooCommerce"
+
+#~ msgid ""
+#~ "Most likely, the plugin does not work correctly because you turned off "
+#~ "the CRON with the help of the "
+#~ msgstr ""
+#~ "Скорее всего,плагин работает неправильно, потому что вы выключили CRON "
+#~ "при помощи "
+
+#~ msgid ""
+#~ "Your site has no global attributes! This may affect the quality of the "
+#~ "XML feed. This can also cause difficulties when setting up the plugin"
+#~ msgstr ""
+#~ "Ваш сайт не имеет глобальных атрибутов! Это может повлиять на качество "
+#~ "XML-фида. Это также может вызвать трудности при настройке плагина"
+
+#~ msgid ""
+#~ "For the plugin to function correctly, you need a version of WooCommerce "
+#~ "3.0 and higher! You have version"
+#~ msgstr ""
+#~ "Для правильной работы плагина необходима версия WooCommerce 3.0 и выше! У "
+#~ "Вас установлена версия"
+
+#~ msgid "installed. Please, update WooCommerce"
+#~ msgstr "Пожалуйста, обновите WooCommerce"
+
+#~ msgid "Fill in the firmId field"
+#~ msgstr "Заполнить поле firmId"
+
+#~ msgid ""
+#~ "Fill in the Vendor field (select the attribute in which you store "
+#~ "information about the vendor). If this is not done, the XML-feed will be "
+#~ "created without products"
+#~ msgstr ""
+#~ "Заполнить поле Vendor (выберите атрибут, в котором вы храните информацию "
+#~ "о производителе). Если этого не сделать, фид будет создан без товаров"
+
+#~ msgid "Generate XML-file"
+#~ msgstr "Сгенерировать XML-файл"
+
+#~ msgid ""
+#~ "By clicking on \"Save\" you will overwrite the upload file for Hotline."
+#~ msgstr "Нажав «Сохранить», вы перезапишете XML для Hotline."
+
+#~ msgid ""
+#~ "We are working on automatic file creation. XML will be developed soon."
+#~ msgstr ""
+#~ "Идет автоматическое создание файла. XML-фид в скором времени будет создан."
+
+#, fuzzy
+#~| msgid "Required element"
+#~ msgid "Required element element"
+#~ msgstr "Обязательный элемент"
+
+#~ msgid "Exporter Yandex Market"
+#~ msgstr "Экспортер Yandex Market"
+
+#~ msgid ""
+#~ "is an extension that allows you to increase sales by unloading Promotions "
+#~ "(promos, gifts) on the Yandex Market"
+#~ msgstr ""
+#~ "- это расширение, которое позволяет увеличить продажи за счет выгрузки "
+#~ "Промоакций (promos, gifts) на Яндекс Маркет"
+
+#~ msgid "Thank you for purchasing the Promos Export extension"
+#~ msgstr "Спасибо за использование плагина Promos Export"
+
+#~ msgid "Read usage case"
+#~ msgstr "Посмотреть пример использования"
+
+#~ msgid "Go to"
+#~ msgstr "Переходи на"
+
+#~ msgid "on Yandex"
+#~ msgstr "на Яндексе"
+
+#~ msgid "Thank you for purchasing the Yml for Yandex Market Pro extension"
+#~ msgstr "Спасибо за использование плагина Yml for Yandex Market Pro"
+
+#~ msgid "Read usage tips"
+#~ msgstr "Прочитать советы по использованию"
+
+#~ msgid ""
+#~ "Thank you for purchasing the Yml for Yandex Market Prom Export extension"
+#~ msgstr "Спасибо за использование плагина Yml for Yandex Market Prom Export"
+
+#~ msgid "Company name"
+#~ msgstr "Наименование компании"
+
+#~ msgid "Full name of the company that owns the store"
+#~ msgstr "Полное наименование компании, владеющей магазином"
+
+#~ msgid "Adult Market"
+#~ msgstr "Магазин для взрослых"
+
+#~ msgid ""
+#~ "According to Yandex Market rules in this field you need to mark ALL "
+#~ "categories of products not related to \"Clothes, Shoes and Accessories\", "
+#~ "\"Furniture\", \"Cosmetics, perfumes and care\", \"Baby products\", "
+#~ "\"Accessories for portable electronics\". Ie categories for which it is "
+#~ "forbidden to use the attribute group_id"
+#~ msgstr ""
+#~ "Согласно правилам Яндекс Маркет в этом поле Вам необходимо отметить ВСЕ "
+#~ "категории товаров не относящиеся к \"Одежда, обувь и аксессуары\", "
+#~ "\"Мебель\", \"Косметика, парфюмерия и уход\", \"Детские товары\", "
+#~ "\"Аксессуары для портативной электроники\". Т.е категории, для которых "
+#~ "запрещено использовать атрибут group_id"
+
+#~ msgid "Add attributes to the variable products name"
+#~ msgstr "Добавлять атрибуты в название вариативных товаров"
+
+#~ msgid ""
+#~ "You can only add attributes that are used for variations and that cannot "
+#~ "be grouped using"
+#~ msgstr ""
+#~ "Можно добавлять только атрибуты, которые используются для вариаций и "
+#~ "которые не могут быть объединены с помощью"
+
+#~ msgid ""
+#~ "It works only for variable products that are not in the category "
+#~ "\"Clothes, Shoes and Accessories\", \"Furniture\", \"Cosmetics, perfumes "
+#~ "and care\", \"Baby products\", \"Accessories for portable electronics\""
+#~ msgstr ""
+#~ "Работает только для вариативных товаров, входящих в категории не "
+#~ "относящихся к \"Одежда, обувь и аксессуары\", \"Мебель\", \"Косметика, "
+#~ "парфюмерия и уход\", \"Детские товары\", \"Аксессуары для портативной "
+#~ "электроники\""
+
+#~ msgid "Separator options"
+#~ msgstr "Варианты разделителя"
+
+#~ msgid "Type"
+#~ msgstr "Тип"
+
+#~ msgid "True"
+#~ msgstr "Да"
+
+#~ msgid "False"
+#~ msgstr "Нет"
+
+#~ msgid "Option to get order from pickup point"
+#~ msgstr "Возможность самовывоза из пунктов выдачи"
+
+#~ msgid "Price from"
+#~ msgstr "Цена от"
+
+#~ msgid "Apply the setting Price from"
+#~ msgstr "Применить параметр Цена от ко всем товарам"
+
+#~ msgid "attribute of"
+#~ msgstr "атрибута"
+
+#~ msgid "Example"
+#~ msgstr "Пример"
+
+#~ msgid ""
+#~ "In oldprice indicates the old price of the goods, which must necessarily "
+#~ "be higher than the new price (price)"
+#~ msgstr ""
+#~ "В oldprice указывается старая цена товара, которая обязательно должна "
+#~ "быть выше новой цены (price)"
+
+#~ msgid ""
+#~ "The delivery item must be set to false if the item is prohibited to sell "
+#~ "remotely (jewelry, medicines)"
+#~ msgstr ""
+#~ "Элемент delivery должен обязательно иметь значение false, если товар "
+#~ "запрещено продавать дистанционно (ювелирные изделия, лекарственные "
+#~ "средства)."
+
+#~ msgid "VAT rate"
+#~ msgstr "НДС"
+
+#~ msgid "Tips for configuring Turbo pages"
+#~ msgstr "Советы по настройке Турбо-страниц"
+
+#~ msgid "Enable. No default value"
+#~ msgstr "Включить. Без значений по умолчанию"
+
+#~ msgid "Enable. Default value"
+#~ msgstr "Включить. Значение по умолчанию"
+
+#~ msgid "No VAT"
+#~ msgstr "Без НДС"
+
+#~ msgid "This element is used when creating an YML feed for Yandex.Delivery"
+#~ msgstr "Этот элемент используется при создании YML-фида для Яндекс Доставки"
+
+#~ msgid "Do not use it if you create YML-feed for Yandex Market"
+#~ msgstr "Не используйте его, если вы создаете YML-фид для Яндекс Маркета"
+
+#~ msgid "Use delivery-options"
+#~ msgstr "Использовать delivery-options"
+
+#~ msgid "Delivery days"
+#~ msgstr "Срок доставки"
+
+#~ msgid "The time"
+#~ msgstr "Время"
+
+#~ msgid "The time in which you need to place an order to get it at this time"
+#~ msgstr ""
+#~ "Время, до которого нужно сделать заказ, чтобы получить его в этот срок"
+
+#~ msgid "Add a second delivery methods"
+#~ msgstr "Добавить второй метод доставки"
+
+#~ msgid "Add a second delivery methods to"
+#~ msgstr "Добавление второго способа доставки в"
+
+#~ msgid "Use Auto discounts"
+#~ msgstr "Применить автоматический расчет скидок"
+
+#~ msgid "Vendor Code"
+#~ msgstr "Артикул"
+
+#~ msgid "Shelf life / service life"
+#~ msgstr "Срок годности / срок службы"
+
+#~ msgid "Shelf life / service life. expiry date / service life"
+#~ msgstr ""
+#~ "Срок годности / срок службы либо дата истечения срока годности / срока "
+#~ "службы"
+
+#~ msgid "Mark downloadable products"
+#~ msgstr "Помечать скачиваемые товары"
+
+#~ msgid "On"
+#~ msgstr "Включить"
+
+#~ msgid "Age"
+#~ msgstr "Возраст"
+
+#~ msgid "Considered obsolete. Do not use the Yandex Market"
+#~ msgstr "Считается устаревшим. Не используется Яндекс Маркетом"
+
+#~ msgid ""
+#~ "This element indicates the country where the product was manufactured"
+#~ msgstr "Элемент предназначен для указания страны производства товара"
+
+#~ msgid "A list of possible values"
+#~ msgstr "Список возможных значений"
+
+#~ msgid "Add to all"
+#~ msgstr "Добавить всем"
+
+#~ msgid ""
+#~ "This element is used for products that have an official manufacturer's "
+#~ "warranty"
+#~ msgstr ""
+#~ "Элемент предназначен для отметки товаров, имеющих официальную гарантию "
+#~ "производителя"
+
+#~ msgid "Product does not have an official warranty"
+#~ msgstr "Товар не имеет официальной гарантии"
+
+#~ msgid "Product has an official warranty"
+#~ msgstr "Товар имеет официальную гарантию"
+
+#~ msgid "Sales notes"
+#~ msgstr "Примечание"
+
+#~ msgid "Read more about how this works"
+#~ msgstr "Подробнее о том, как это работает"
+
+#~ msgid "Disable use of Sales notes"
+#~ msgstr "Запретить выгрузку Sales notes"
+
+#~ msgid ""
+#~ "If the attribute from the select is absent from the product, then "
+#~ "substitute"
+#~ msgstr "Если атрибут из селекта выше отсутствует у товара, то подставить"
+
+#~ msgid ""
+#~ "The text may be up to 50 characters in length. Also in the item is "
+#~ "forbidden to specify the terms of delivery and price reduction (discount "
+#~ "on merchandise)"
+#~ msgstr ""
+#~ "Не более 50 символов. Также в элементе запрещено указывать условия "
+#~ "доставки и снижение цены (скидку на товар)"
+
+#~ msgid "Store"
+#~ msgstr "Запас"
+
+#~ msgid "The product can be purchased in retail stores"
+#~ msgstr "Товар можно купить без предварительного заказа"
+
+#~ msgid "the product cannot be purchased in retail stores"
+#~ msgstr "товар нельзя купить без предварительного заказа"
+
+#~ msgid "Sending statistics you help make the plugin even better!"
+#~ msgstr "Пожалуйста, помогите сделать плагин лучше!"
+
+#~ msgid ""
+#~ "Ability to specify a product with a category tree identical to the "
+#~ "category tree on the Yandex Market"
+#~ msgstr ""
+#~ "Возможность прописать товару дерево категорий идентичное дереву категорий "
+#~ "на Яндекс Маркет"
+
+#~ msgid ""
+#~ "This extension adds to the plugin support for a special type of export by "
+#~ "Yandex Market for books"
+#~ msgstr ""
+#~ "Это расширение добавляет в плагин специальный вид экспорта Yandex Market "
+#~ "для книг"
+
+#~ msgid "Get Yml for Yandex Market Book Export Now"
+#~ msgstr "Получить Yml for Yandex Market Book Export сейчас"
+
+#~ msgid ""
+#~ "This extension allows you to transfer information about various stores "
+#~ "promotions, such as"
+#~ msgstr ""
+#~ "Это расширение позволяет передавать информацию о различных рекламных "
+#~ "акциях магазинов, таких как"
+
+#~ msgid "Promo Code"
+#~ msgstr "Промо код"
+
+#~ msgid "Flash Discount"
+#~ msgstr "Специальная цена"
+
+#~ msgid "N+M"
+#~ msgstr "N+M"
+
+#~ msgid "Gifts"
+#~ msgstr "Подарки"
+
+#~ msgid "Very important"
+#~ msgstr "Очень важно"
+
+#~ msgid ""
+#~ "The extension allows you to send information about the \"Gift at Purchase"
+#~ "\" to Yandex Market (see screenshot)"
+#~ msgstr ""
+#~ "Расширение позволяет передавать на Яндекс Маркет информацию о \"Подарок "
+#~ "при покупке\" (см скриншот)"
+
+#~ msgid "self add information"
+#~ msgstr "самостоятельно добавить информацию"
+
+#~ msgid ""
+#~ "that the person is entitled to a gift for purchase. Otherwise YOU WILL "
+#~ "NOT TAKE A MODERATION on Yandex Market"
+#~ msgstr ""
+#~ "о том, что за покупку человеку полагается подарок. Если этого не сделать, "
+#~ "то Вы НЕ ПРОЙДЕТЕ МОДЕРАЦИЮ на Яндекс Маркете"
+
+#~ msgid "Sure to"
+#~ msgstr "Обязательно"
+
+#~ msgid ""
+#~ "BEFORE PURCHASING this extension - add relevant information to your site"
+#~ msgstr ""
+#~ "ПЕРЕД ПОКУПКОЙ этого расширения добавьте соответствующую информацию на "
+#~ "Ваш сайт"
+
+#~ msgid "For example, this can be done using a plugin"
+#~ msgstr "Например, это можно сделать с помощью плагина"
+
+#~ msgid "Get Yml for Yandex Market Promos Export Now"
+#~ msgstr "Получить Yml for Yandex Market Promos Export сейчас"
+
+#~ msgid ""
+#~ "This extension adds to the plugin support for special attributes needed "
+#~ "to export products on prom.ua"
+#~ msgstr ""
+#~ "Это расширение добавляет в плагин поддержку специальных атрибутов, "
+#~ "необходимых для экспорта товаров на prom.ua"
+
+#~ msgid "among which"
+#~ msgstr "cреди которых"
+
+#~ msgid "and so on"
+#~ msgstr "и так далее"
+
+#~ msgid "Read more on Prom.ua"
+#~ msgstr "Прочитать подробности на prom.ua"
+
+#~ msgid "Get Yml for Yandex Market Prom Export Now"
+#~ msgstr "Получить Yml for Yandex Market Prom Export сейчас"
+
+#~ msgid ""
+#~ "This extension adds to the plugin support for special attributes needed "
+#~ "to export products on"
+#~ msgstr ""
+#~ "Это расширение добавляет в плагин поддержку специальных атрибутов, "
+#~ "необходимых для экспорта товаров на"
+
+#~ msgid "Read more on rozetka.com.ua"
+#~ msgstr "Прочитать подробности на rozetka.com.ua"
+
+#~ msgid "Get Yml for Yandex Market Rozetka Export Now"
+#~ msgstr "Получить Yml for Yandex Market Rozetka Export сейчас"
+
+#~ msgid "Export Yandex Market"
+#~ msgstr "Экспорт Yandex Market"
+
+#~ msgid "Settings delivery options for Yandex Market"
+#~ msgstr "Настройки параметров доставки для Яндекс Маркета"
+
+#~ msgid "Here you can set up individual options terms for this product"
+#~ msgstr ""
+#~ "Здесь вы можете настроить индивидуальные условия доставки для данного "
+#~ "товара"
+
+#~ msgid "Use global settings"
+#~ msgstr "Использовать глобальные настройки"
+
+#~ msgid "Here you can configure the pickup conditions for this product"
+#~ msgstr ""
+#~ "Здесь вы можете настроить индивидуальные условия самовывоза для данного "
+#~ "товара"
+
+#~ msgid "Pickup cost"
+#~ msgstr "Стоимость самовывоза"
+
+#~ msgid "Pickup days"
+#~ msgstr "Срок самовывоза"
+
+#~ msgid "Bid values"
+#~ msgstr "Значения ставки"
+
+#~ msgid "Сondition"
+#~ msgstr "Состояние товара"
+
+#~ msgid ""
+#~ "Bid values in your price list. Specify the bid amount in Yandex cents: "
+#~ "for example, the value 80 corresponds to the bid of 0.8 Yandex units. The "
+#~ "values must be positive integers"
+#~ msgstr ""
+#~ "Значения ставок в прайс-листе. Указывайте размер ставки в условных "
+#~ "центах: например, значение 80 соответствует ставке 0,8 у. е. Значения "
+#~ "должны быть целыми и положительными числами"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Like New"
+#~ msgstr "Как новый"
+
+#~ msgid "Reason"
+#~ msgstr "Причина"
+
+#~ msgid "ID of the loan program"
+#~ msgstr "ID кредитной программы"
+
+#~ msgid "You are using the"
+#~ msgstr "Вы используете"
+
+#~ msgid "plugin of obsolete version"
+#~ msgstr "плагин устаревшей версии"
+
+#~ msgid ""
+#~ "This version does not know how to work with multiple YML-feeds. I highly "
+#~ "recommend upgrading the"
+#~ msgstr ""
+#~ "Эта версия не знает, как работать с несколькими YML-фидами. Я "
+#~ "настоятельно рекомендую обновить"
+
+#~ msgid "version to"
+#~ msgstr "версию до"
+
+#~ msgid "or higher"
+#~ msgstr "или выше"
+
+#~ msgid "Plugin has been updated to version"
+#~ msgstr "Плагин был обновлен до версии"
+
+#~ msgid "Please resave the plugin settings"
+#~ msgstr "Пожалуйста, пересохраните настройки плагина"
+
+#~ msgid "Substitute from Perfect Woocommerce Brands"
+#~ msgstr "Подставлять из Perfect Woocommerce Brands"
+
+#~ msgid "Generate your 1st YML feed!"
+#~ msgstr "Создайте ваш 1-й YML фид!"
+
+#~ msgid "Link to your feed"
+#~ msgstr "Ссылка на ваш фид"
+
+#~ msgid "Go to Yml for Yandex Market Pro and"
+#~ msgstr "Переходи на Yml for Yandex Market Pro и"
+
+#~ msgid "Download the"
+#~ msgstr "Загрузите"
+
+#~ msgid "extension"
+#~ msgstr "расширение"
+
+#~ msgid "All"
+#~ msgstr "Всё"
+
+#~ msgid "Plugin YML for Yandex Market has been updated!"
+#~ msgstr "Плагин YML for Yandex Market был обновлен!"
+
+#~ msgid "On the plugin settings page click on the"
+#~ msgstr "На странице настроек плагина нажмите на кнопку"
+
+#~ msgid "In the absence of a substitute"
+#~ msgstr "Если отсутствует, то подставить"
+
+#~ msgid "Expiry"
+#~ msgstr "Окончание"
+
+#~ msgid "Sales notes will be added to all items, if you complete this field"
+#~ msgstr "Sales notes будет добавлен ко всем товарам, если заполнить это поле"
+
+#~ msgid "Work is under way on this extension"
+#~ msgstr "Ведется работа над этим расширением"
+
+#~ msgid "If you have any ideas how to make the plugin better"
+#~ msgstr "Если у вас есть идеи, как сделать плагин лучше"
+
+#~ msgid "Perhaps, it is your idea that will enter this extension"
+#~ msgstr "Возможно, ваша идея войдет в данное расширение"
+
+#~ msgid "Get Special Offer Now"
+#~ msgstr "Получите специальное предложение сейчас"
+
+#~ msgid "Adult store?"
+#~ msgstr "Магазин для взрослых?"
+
+#~ msgid "Settings Maps for WP"
+#~ msgstr "Настройки Maps for WP"
+
+#~ msgid "Text when you hover over a point"
+#~ msgstr "Текст при наведении на точку"
+
+#~ msgid "The image point on the map (36×36)"
+#~ msgstr "Иконка точки на карте (36×36)"
+
+#~ msgid "Zoom map with many points"
+#~ msgstr "Масштаб карты с множеством точек"
+
+#~ msgid "Latitude center map with many points"
+#~ msgstr "Широта центра карты с множеством точек"
+
+#~ msgid "Longitude center map with many points"
+#~ msgstr "Долгота карты с множеством точек"
+
+#~ msgid "Zoom map with one point"
+#~ msgstr "Масштаб карты с одной точкой"
+
+#~ msgid "Latitude map with one point"
+#~ msgstr "Широтка карты с одной точкой"
+
+#~ msgid "Longitude map with one point"
+#~ msgstr "Долготак карты с одной точкой"
+
+#~ msgid "Location"
+#~ msgstr "Местоположение"
+
+#~ msgid "Latitude"
+#~ msgstr "Широта"
+
+#~ msgid "Longitude"
+#~ msgstr "Долгота"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "Subadministrative"
+#~ msgstr "Район"
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "The exact address"
+#~ msgstr "Точный адрес"
+
+#~ msgid "Container Yandex Maps"
+#~ msgstr "Блок Yandex Maps"
